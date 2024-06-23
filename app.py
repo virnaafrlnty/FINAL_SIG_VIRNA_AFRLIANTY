@@ -81,6 +81,6 @@ def create_map():
     folium.GeoJson(gdf).add_to(m)
     return m
 
-st.title("Penerapan streamlit map dengan map")
+st.title("Peta Kecamatan Banggae, Kabupaten Majene, Provinsi Sulawesi Barat\nPenerapan peta pada streamlit")
 map = create_map()
 st_folium(map, width=700, height=500)
