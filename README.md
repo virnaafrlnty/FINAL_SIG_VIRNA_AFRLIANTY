@@ -1,6 +1,6 @@
 # Peta Kecamatan Banggae
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://juharifinaltask-232024.streamlit.app/)  
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://finalsigvirnaafrlianty.streamlit.app/)  
 
 Visualisasi interaktif peta Kecamatan Banggae menggunakan Streamlit dan Folium.
 
@@ -18,7 +18,7 @@ Proyek ini menampilkan peta interaktif Kecamatan Banggae menggunakan data geospa
 
 1. **Kloning Repositori : **
    ```bash
-   git clone https://github.com/Whyjuhari/jr_finaltask_sig.git
+   git clone https://github.com/virnaafrlnty/FINAL_SIG_VIRNA_AFRLIANTY.git
 2. **Install Dependensi : **
    ```bash
    pip install -r requirements.txt
