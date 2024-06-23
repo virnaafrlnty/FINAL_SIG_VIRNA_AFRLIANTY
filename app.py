@@ -13,30 +13,23 @@ from streamlit_folium import st_folium
 def color_function(feature):
     nama_desa = feature['properties']['DESA']
     
-
-    # berdasarkan yang di ambil dari file .geoJson
-    if nama_desa == "BAURUNG":
+    if nama_desa == "BANGGAE":
         return '#E6E6'  
-    elif nama_desa == "BARUGA DHUA":    
-        return '#D8BFD8' 
-    elif nama_desa == "TANDE":
-        return '#B0C4DE'  
-    elif nama_desa == "BARUGA":
-        return '#87CEEB'  
-    elif nama_desa == "LABUANG":
-        return '#6495ED'  
-    elif nama_desa == "LEMBANG":
-        return '#4169E1'  
-    elif nama_desa == "LABUANG UTARA":
-        return '#f1c40f'
-    elif nama_desa == "TANDE TIMUR":
-        return '#e74c3c'
-    elif nama_desa == "BUTTU BARUGA":
+    elif nama_desa == "BARU":
         return '#8e44ad'
-    
+    elif nama_desa == "GALUNG":
+        return '#B0C4DE' 
+    elif nama_desa == "PAMBOBORANG":
+        return '#87CEEB'
+    elif nama_desa == "PANGALIALI":
+        return '#4169E1' 
+    elif nama_desa == "RANGAS":
+        return '#e74c3c'
+    elif nama_desa == "TOTOLI":
+        return '#f1c40f'
     else:
-        return '#191970'  
-    
+        return '#FF00FF'
+  
 def create_map():
     # mengambil file geosjon
     gdf = gpd.read_file('KecBanggae.geojson')
